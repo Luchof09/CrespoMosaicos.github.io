@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , initial-scale=1.0, maximun-scale=1.0, maximun-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Crespo Mosaicos</title>
+</head>
+<body>
+    <!-- TODO: HEADER -->
+    <header>
+        <div class="contenedor">
+            <div class="img">
+                <img src="./img/bgCM.jpg" class="logo" alt="Crespo Mosaicos">
+            </div>
+            <nav class="menu"> 
+                <ul>
+                    <li><a href="index.html" class="navbar">Inicio</a></li>
+                    <li><a href="#trabajos" class="navbar">Trabajos</a></li>
+                    <li><a href="#mainClient" class="navbar">Nuestros Clientes</a></li>
+                    <li><a href="#our" class="navbar">Nosotros</a></li>
+                    <li><a href="#contact" class="navbar">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- TODO: MAIN -->
+    <section class="slider">
+        <div class="contenedor">
+            <h1 class="titulo">CRESPO MOSAICOS</h1>
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col">
+                        <div class="carousel slide carousel-fade" id="mi-carousel" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="img-fluid" src="./img/ultimosTrabajos/Marmol1.jpg" alt="">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img class="img-fluid" src="./img/ultimosTrabajos/Marmol2.jpg" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="./img/ultimosTrabajos/Marmol3.jpg" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="./img/ultimosTrabajos/Marmol4.jpg" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="./img/ultimosTrabajos/Marmol5.jpg" alt="">
+                                </div>
+                            </div>
+        
+                            <!-- Controles -->
+                            <button 
+                                class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#mi-carousel"
+                                data-bs-slide="prev"
+                            >
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+        
+                            <button 
+                                class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#mi-carousel"
+                                data-bs-slide="next"
+                            >
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+        
+                            <!-- Indicadores -->
+                            <div class="carousel-indicators">
+                                <button 
+                                    type="button"
+                                    class="active"
+                                    data-bs-target="#mi-carousel"
+                                    data-bs-slide-to="0"
+                                    aria-label="Slide 1"
+                                ></button>
+                                <button 
+                                    type="button"
+                                    class=""
+                                    data-bs-target="#mi-carousel"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"
+                                ></button>
+                                <button 
+                                    type="button"
+                                    class=""
+                                    data-bs-target="#mi-carousel"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"
+                                ></button>
+                                <button 
+                                    type="button"
+                                    class=""
+                                    data-bs-target="#mi-carousel"
+                                    data-bs-slide-to="3"
+                                    aria-label="Slide 4"
+                                ></button>
+                                <button 
+                                    type="button"
+                                    class=""
+                                    data-bs-target="#mi-carousel"
+                                    data-bs-slide-to="4"
+                                    aria-label="Slide 5"
+                                ></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <article class="articulo">
+        <div class="contenedor">
+            <div class="container">
+                <section class="row align-items-center">
+                    <main class="col 12 col-md-8">
+                            <h2>Lorem, ipsum.</h2>
+                            <p class="article1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Modi, mollitia a? Totam perspiciatis porro omnis nihil, temporibus atque voluptates illo accusantium, expedita perferendis quidem et, ipsa explicabo beatae ab doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, mollitia a? Totam perspiciatis porro omnis nihil, temporibus atque voluptates illo accusantium, expedita perferendis quidem et, ipsa explicabo beatae ab doloribus?</p>
+                            <p class="article1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Modi, mollitia a? Totam perspiciatis porro omnis nihil, temporibus atque voluptates illo accusantium, expedita perferendis quidem et, ipsa explicabo beatae ab doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, mollitia a? Totam.</p>
+                    </main>
+                    <aside class="col 12 col-md-4">
+                        <img src="./img/article/marmol1.jpg" alt="Marmol Negro" class="negro" class="img-fluid">
+                    </aside>
+                </section>
+            </div>
+        </div>
+    </article>
+    
+    <!-- TODO: TRABAJOS -->
+    <section class="main">
+        <section class="trabajos" id = "trabajos">
+            <div class="contenedor">
+                <h3 class="titulo">Trabajos</h3>
+                <div class="contenedor-trabajos">
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="./img/trabajos/1.jpg" alt="Lorem Ipsum">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Ipsum</p>
+                            <p class="categoria">MÁRMOL</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="./img/trabajos/2.jpg" alt="Lorem Ipsum">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Ipsum</p>
+                            <p class="categoria">MÁRMOL</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="./img/trabajos/3.jpg" alt="Lorem Ipsum">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Ipsum</p>
+                            <p class="categoria">MÁRMOL</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="./img/trabajos/4.jpg" alt="Lorem Ipsum">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Ipsum</p>
+                            <p class="categoria">MÁRMOL</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="./img/trabajos/5.jpg" alt="Lorem Ipsum">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Ipsum</p>
+                            <p class="categoria">MÁRMOL</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="./img/trabajos/6.jpg" alt="Lorem Ipsum">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Ipsum</p>
+                            <p class="categoria">MÁRMOL</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="./img/trabajos/7.jpg" alt="Lorem Ipsum">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Ipsum</p>
+                            <p class="categoria">MÁRMOL</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="./img/trabajos/8.jpg" alt="Lorem Ipsum">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lorem Ipsum</p>
+                            <p class="categoria">MÁRMOL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <!-- TODO: NUESTROS CLIENTES -->
+    <section class="mainClient" id="mainClient">
+        <div class="contenedor">
+            <div class="container">
+                <h3 class="titulo">Nuestros Clientes</h3>
+                <div class="row">
+                    <div class="col-12 col-lg-6 d-flex align-items-center">
+                        <p class="articleClient">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, aut illo amet ab architecto tempora, deserunt dolores, ad similique quod neque impedit cupiditate ipsum maiores voluptatem!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/Clientes/face.jpg" alt="Facebook" class="img-thumbnail">
+                        <p class="clientDescript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, laboriosam?</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/Clientes/twitter.jpg" alt="Twitter" class="img-thumbnail">
+                        <p class="clientDescript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, laboriosam?</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/Clientes/google.jpg" alt="Google" class="img-thumbnail">
+                        <p class="clientDescript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, laboriosam?</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/Clientes/cocacola.jpg" alt="CocaCola" class="img-thumbnail">
+                        <p class="clientDescript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, laboriosam?</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/Clientes/mcdonalds.jpg" alt="McDonalds" class="img-thumbnail">
+                        <p class="clientDescript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, laboriosam?</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/Clientes/apple.jpg" alt="Apple" class="img-thumbnail">
+                        <p class="clientDescript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, laboriosam?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btnWork ">
+                <input class="botonClient" id="botonClient" type="submit" value="Cargar Más">
+            </div>
+        </div>
+    </section>
+
+    <!-- TODO: NOSOTROS-->
+    <section class="our" id="our">
+        <div class="contenedor">
+            <div class="container">
+                <h2 class="titulo">Nosotros</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="slide">
+                            <img src="./img/Nosotros/our.jpg" class="img-fluid" alt="Nosotros">
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between">
+                    <div class="col-12 col-md-6 align-content-md-stretch">
+                        <article class="quienes-somos">
+                            <h3 class="ourTitle">Quienes Somos?</h3>
+                            <p><span>Crespo Mosaicos</span> es una empresa familiar creada en el año 1942, com mas de 80 años de experiencia en el rubro por la primer generación de la Famila Gómez. Contando así con años de trayectoria y experiencia que nos avalan nuestros trabajos realizados durante todo este tiempo.</p>
+                            <p>Contamos con un equipo altamente capacitado de artesanos y diseñadores que trabajan en estrecha colaboración con nuestros clientes para crear piezas únicas y personalizadas que reflejan su estilo y visión .</p>
+                            <div class="btnReadMore">
+                                <!-- <input class="btnReadMore1" id="btnReadMore1" type="submit" value="Leer Más"> -->
+                                <button 
+                                class="btn btn-primary btn-md btnReadMore1 "
+                                id="btnReadMore1"
+                                data-bs-toggle="modal"
+                                data-bs-target="#mi-modal-2"
+                                >
+                                    Leer Más
+                                </button>
+                                <div
+                                    class="modal fade"
+                                    id="mi-modal-2"
+                                    tabindex="-1"
+                                    aria-hidden="true"
+                                    aria-labelledby="label-modal-2"
+                                    data-bs-backdrop="static"
+                                >
+                                    <!-- Caja de dialogo -->
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                        <!-- Contenido de la caja -->
+                                        <div class="modal-content">
+                                            <!-- Encabezado de la caja -->
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">A que nos dedicamos?</h5>
+                                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                            </div>
+
+                                            <!-- Cuerpo de la caja -->
+                                            <div class="modal-body">
+                                                <div style="height: 600px;">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptate nobis quasi sed eligendi eum vel, nulla quaerat voluptates nostrum iste, ad ab qui maiores iusto nesciunt possimus voluptatibus doloremque impedit reprehenderit atque amet repudiandae voluptas. Non earum ducimus mollitia illum corporis beatae quidem, animi culpa ratione reprehenderit consequuntur voluptatum fuga magni iusto est tempore impedit. Beatae sed aperiam alias optio fuga consequatur sint tempora illo dolore molestias dolorum ullam veritatis praesentium earum quis, asperiores eius voluptatibus in libero quisquam aliquid corrupti commodi. Hic laudantium, eveniet iure, odit nobis laboriosam aliquam, repellendus error est eaque explicabo ipsa vel omnis deserunt debitis fuga quo impedit nisi placeat culpa minima atque doloribus deleniti. Possimus vel quidem voluptates cupiditate velit consequatur cumque dolores quibusdam aperiam iure ad, non at? Perferendis sit perspiciatis et, doloribus excepturi sed tenetur. Reiciendis libero magni debitis labore dolore error numquam perspiciatis fugiat harum dicta totam repellendus exercitationem placeat voluptate ex fuga, facilis dolores earum delectus dignissimos! Voluptatem odit quas explicabo accusantium tenetur blanditiis dignissimos rerum quibusdam dolore ex sed veniam voluptatum quos, aliquid corrupti. Totam quam aspernatur, corporis consectetur ex nemo recusandae qui optio harum non mollitia ad esse odit nihil quo ratione? Ab atque molestiae omnis, aliquid accusantium eos similique modi possimus illum beatae iusto eveniet veritatis ipsa! Impedit hic doloribus exercitationem? Eos consectetur atque cupiditate quibusdam accusantium sequi deserunt ipsam asperiores ratione perferendis debitis saepe earum veniam quidem, ipsa sunt animi! Unde enim nam inventore officiis cumque fuga quasi veritatis repellendus. Quae nemo tenetur quam id amet fugit, consectetur, assumenda ut minima nostrum neque, reprehenderit similique perspiciatis. Tempore delectus minus laborum, eligendi dolores illo vel molestias voluptates, veritatis ipsum voluptatem maiores beatae natus tenetur doloribus dolor veniam qui incidunt nemo ratione vero odit eum nam dolorum! Perferendis, aliquam! A fugit et dicta culpa provident aperiam laudantium magni maiores obcaecati corporis voluptas nemo, adipisci molestiae facilis repellendus aliquid eaque dolorum, quae, ea minus. Quod ea quaerat, optio, sapiente molestiae voluptate, ratione alias voluptatem recusandae laboriosam pariatur eveniet quas cum? Maiores dolor voluptatum velit, numquam officiis, architecto minus deleniti fuga esse neque magni iure placeat, laudantium inventore aspernatur aliquam nam sunt error iste molestiae eius vero sed? Corporis, quam provident rerum maxime harum qui laudantium enim velit animi ad. Eligendi, vitae praesentium. Nobis dolor facilis animi porro ratione ducimus ea asperiores impedit, vero temporibus consequatur aliquam illum harum? Mollitia soluta esse, voluptas saepe eos veritatis praesentium ipsa autem.
+                                                </div>
+                                            </div>
+
+                                            <!-- Pie de pagina de la caja -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <article class="dedicamos">
+                            <h3 class="ourTitle">A que nos dedicamos?</h2>
+                            <p><span>Nuestra empresa</span> desde nuestros comienzos nos especializamos en marmolería de obra, mesadas, revestimientos, solados y decoración, poniendo a disposición del cliente toda nuestra experiencia técnica, para asesorarlo y brindarle respaldo en la elección de los materiales y en el diseño.</p>
+                            <p>Nuestro compromiso con la calidad y la artesanía nos ha permitido crear obras maestras que adornan hogares, espacios comerciales y edificios emblemáticos en todo el mundo.</p>
+                            <div class="btnReadMore">
+                                <!-- <input class="btnReadMore1" id="btnReadMore1" type="submit" value="Leer Más"> -->
+                                <button 
+                                class="btn btn-primary btn-md btnReadMore1 "
+                                id="btnReadMore1"
+                                data-bs-toggle="modal"
+                                data-bs-target="#mi-modal-2"
+                                >
+                                    Leer Más
+                                </button>
+                                <div
+                                    class="modal fade"
+                                    id="mi-modal-2"
+                                    tabindex="-1"
+                                    aria-hidden="true"
+                                    aria-labelledby="label-modal-2"
+                                    data-bs-backdrop="static"
+                                >
+                                    <!-- Caja de dialogo -->
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                        <!-- Contenido de la caja -->
+                                        <div class="modal-content">
+                                            <!-- Encabezado de la caja -->
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">A que nos dedicamos?</h5>
+                                                <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                            </div>
+
+                                            <!-- Cuerpo de la caja -->
+                                            <div class="modal-body">
+                                                <div style="height: 600px;">
+                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptate nobis quasi sed eligendi eum vel, nulla quaerat voluptates nostrum iste, ad ab qui maiores iusto nesciunt possimus voluptatibus doloremque impedit reprehenderit atque amet repudiandae voluptas. Non earum ducimus mollitia illum corporis beatae quidem, animi culpa ratione reprehenderit consequuntur voluptatum fuga magni iusto est tempore impedit. Beatae sed aperiam alias optio fuga consequatur sint tempora illo dolore molestias dolorum ullam veritatis praesentium earum quis, asperiores eius voluptatibus in libero quisquam aliquid corrupti commodi. Hic laudantium, eveniet iure, odit nobis laboriosam aliquam, repellendus error est eaque explicabo ipsa vel omnis deserunt debitis fuga quo impedit nisi placeat culpa minima atque doloribus deleniti. Possimus vel quidem voluptates cupiditate velit consequatur cumque dolores quibusdam aperiam iure ad, non at? Perferendis sit perspiciatis et, doloribus excepturi sed tenetur. Reiciendis libero magni debitis labore dolore error numquam perspiciatis fugiat harum dicta totam repellendus exercitationem placeat voluptate ex fuga, facilis dolores earum delectus dignissimos! Voluptatem odit quas explicabo accusantium tenetur blanditiis dignissimos rerum quibusdam dolore ex sed veniam voluptatum quos, aliquid corrupti. Totam quam aspernatur, corporis consectetur ex nemo recusandae qui optio harum non mollitia ad esse odit nihil quo ratione? Ab atque molestiae omnis, aliquid accusantium eos similique modi possimus illum beatae iusto eveniet veritatis ipsa! Impedit hic doloribus exercitationem? Eos consectetur atque cupiditate quibusdam accusantium sequi deserunt ipsam asperiores ratione perferendis debitis saepe earum veniam quidem, ipsa sunt animi! Unde enim nam inventore officiis cumque fuga quasi veritatis repellendus. Quae nemo tenetur quam id amet fugit, consectetur, assumenda ut minima nostrum neque, reprehenderit similique perspiciatis. Tempore delectus minus laborum, eligendi dolores illo vel molestias voluptates, veritatis ipsum voluptatem maiores beatae natus tenetur doloribus dolor veniam qui incidunt nemo ratione vero odit eum nam dolorum! Perferendis, aliquam! A fugit et dicta culpa provident aperiam laudantium magni maiores obcaecati corporis voluptas nemo, adipisci molestiae facilis repellendus aliquid eaque dolorum, quae, ea minus. Quod ea quaerat, optio, sapiente molestiae voluptate, ratione alias voluptatem recusandae laboriosam pariatur eveniet quas cum? Maiores dolor voluptatum velit, numquam officiis, architecto minus deleniti fuga esse neque magni iure placeat, laudantium inventore aspernatur aliquam nam sunt error iste molestiae eius vero sed? Corporis, quam provident rerum maxime harum qui laudantium enim velit animi ad. Eligendi, vitae praesentium. Nobis dolor facilis animi porro ratione ducimus ea asperiores impedit, vero temporibus consequatur aliquam illum harum? Mollitia soluta esse, voluptas saepe eos veritatis praesentium ipsa autem.
+                                                </div>
+                                            </div>
+
+                                            <!-- Pie de pagina de la caja -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <section class="video">
+                            <iframe width=100% height="640" src="https://www.youtube.com/embed/NvfD3MtFOK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- TODO: CONTACTO + FOOTER -->
+    <footer>
+        <section class="contacto" id="contact">
+            <div class="contenedor">
+                <h3 class="titulo">Contacto</h3>
+                <p>Para consultas y más , complete el formulario y a la brevedad nos pondremos en contacto.  También puede seguirnos en nuestas redes y ponerse en contacto a través de ellas.</p>
+                <form action="" class="formulario">
+                    <input type="text" name="nombre" placeholder="*Nombre" required>
+                    <input type="text" name="apellido" placeholder="*Apellido" required>
+                    <input type="email" name="correo" placeholder="*Correo" required>
+                    <input type="text" name="telefono" placeholder="Teléfono">
+                    <textarea name="mensaje" placeholder="*Mensaje:" required></textarea>
+                    <input class="boton" id="boton" type="submit" value="Enviar">
+                </form>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108722.37639162636!2d-60.77629729072268!3d-31.61812358823236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9adc40888e1%3A0xdcf7761e8d02804a!2sSanta%20Fe!5e0!3m2!1ses!2sar!4v1686414723663!5m2!1ses!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            </div>
+        </section>
+        <section class="redes-sociales">
+            <div class="contenedor">
+                <div class="detalle">
+                    <h2>Crespo Mosiacos</h2>
+                    <p>Dirección 3456 | CP 9999</p>
+                    <p>Localidad , Argentina</p>
+                    <p>Tel. (9999-99999999)</p>
+                </div>
+                <div class="redes">
+                    <h2>Seguinos!</h2>
+                    <a class="facebook" href="https://web.facebook.com/lucho.fuente.3"><i class="fa fa-facebook"></i></a>
+                    <a class="instagram" href="https://www.instagram.com/luchof27.09/"><i class="fa fa-instagram"></i></a>
+                    <a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>  
+        </section>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
