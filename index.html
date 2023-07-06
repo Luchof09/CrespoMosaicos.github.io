@@ -15,20 +15,51 @@
     <!-- TODO: HEADER -->
     <header>
         <div class="contenedor">
-            <div class="img">
-                <img src="./img/bgCM.jpg" class="logo" alt="Crespo Mosaicos">
-            </div>
-            <nav class="menu"> 
-                <ul>
-                    <li><a href="index.html" class="navbar">Inicio</a></li>
-                    <li><a href="#trabajos" class="navbar">Trabajos</a></li>
-                    <li><a href="#mainClient" class="navbar">Nuestros Clientes</a></li>
-                    <li><a href="#our" class="navbar">Nosotros</a></li>
-                    <li><a href="#contact" class="navbar">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light menu">
+                <div class="container-fluid">
+                    <div class="img">
+                        <a class="navbar-brand" href="index.html"><img src="./img/bgCM.jpg" class="logo" alt="Crespo Mosaicos"></a>
+                    </div> 
+                    <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div id="MenuNavegacion" class="navbar-collapse collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="index.html" class="navbar">Inicio</a></li>
+                            <li><a href="#trabajos" class="navbar">Trabajos</a></li>
+                            <li><a href="#mainClient" class="navbar">Nuestros Clientes</a></li>
+                            <li><a href="#our" class="navbar">Nosotros</a></li>
+                            <li><a href="#contact" class="navbar">Contacto</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
-    </header>
+
+        <!-- <div class="contenedor">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light menu">
+                    <div class="img">
+                        <a class="navbar-brand" href="index.html"><img src="./img/bgCM.jpg" class="logo" alt="Crespo Mosaicos"></a>
+                    </div>  
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#MenuNavegacion" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li><a href="index.html" class="navbar">Inicio</a></li>
+                            <li><a href="#trabajos" class="navbar">Trabajos</a></li>
+                            <li><a href="#mainClient" class="navbar">Nuestros Clientes</a></li>
+                            <li><a href="#our" class="navbar">Nosotros</a></li>
+                            <li><a href="#contact" class="navbar">Contacto</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header> -->
 
     <!-- TODO: MAIN -->
     <section class="slider">

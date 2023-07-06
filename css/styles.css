@@ -20,13 +20,13 @@ body{
 }
 
 header{
-    display: block;
+    /* display: block; */
     background: rgb(226,226,226); 
     background: -moz-linear-gradient(top,  rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
-    max-height: 200px;
+    max-height: auto;
     margin-bottom: 30px;
 }
 
@@ -44,24 +44,24 @@ header img.logo{
     margin: 20px;
     width: 150px;
     border-radius: 50%;
-    float: left;
+    /* float: left; */
 }
 
 header ul{
-    display: inline-flex;
+    /* display: inline-flex; */
     list-style-type: none;
     margin: 3em auto;
     text-align: center;
-    float: right;
+    /* float: right; */
 }
 
 header ul li{
-    display: inline;
+    /* display: inline; */
     list-style: none;
     text-decoration: none;
 }
 
-header .menu a:hover{
+header .menu ul a:hover{
     border-bottom: 1px solid #18453b;
 }
 
