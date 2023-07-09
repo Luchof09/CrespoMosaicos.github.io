@@ -89,7 +89,7 @@ section.slider{
 
   /* TODO: ARTICLE */
 
-.articulo{
+.articulo section{
     margin-bottom: 30px;
 }
 
@@ -179,15 +179,6 @@ footer .contacto .titulo{
     margin-bottom: 30px;
 }
 
-/* .mainClient .titulo , .our .titulo{
-    font-size: 34px;
-    line-height: 34px;
-    margin:40px 0 40px 0;
-    font-weight: 300;
-    color: #18453b;
-    text-align: center;
-} */
-
 .mainClient .articleClient{
     margin-bottom: 20px;
     font-size: 1.2em;
@@ -226,7 +217,7 @@ footer .contacto .titulo{
 }
 .our .contenedor article{
     margin:0 10px 40px 10px;
-    height: 300px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -260,14 +251,6 @@ footer .contacto{
     padding: 60px 0px;
 }
 
-/* footer .contacto .titulo{
-    font-size: 34px;
-    line-height: 34px;
-    margin-bottom: 40px;
-    font-weight: 300;
-    color: #18453b;
-    text-align: center;
-} */
 footer .contacto p{
     line-height: 30px;
     margin-bottom: 20px;
@@ -317,25 +300,20 @@ footer .contacto .map{
     margin-top: 20px;
 }
 
-footer .redes-sociales{
-    background: #1e2b38;
-    padding: 60px 0px;
-}
-
 footer .redes-sociales .contenedor .detalle{
     float: left;
     justify-content: center;
     color: #fff;
-    
 }
 footer .redes-sociales .detalle p{
     margin-top: 40px;
     text-align: left;
-    line-height: 20px
+    line-height: 10px;
 }
 
-footer .redes-sociales .redes h2{
-    margin-bottom: 10px;
+footer .redes-sociales h4{
+    text-decoration: underline;
+    margin-bottom: 24px;
 }
 
 footer .contacto .formulario .boton:hover, 
@@ -351,7 +329,7 @@ footer .contacto .formulario textarea:focus{
 }
 footer .redes-sociales{
     background: #1e2b38;
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 
 footer .redes-sociales .redes{
@@ -366,10 +344,10 @@ footer .redes-sociales .redes a{
     color: #fff;
     text-align: center;
     display: block;
-    width: 100px;
-    padding: 15px 0;
+    width: 70px;
+    padding: 4px 0;
     border-radius: 3px;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 20px;
 }
 
