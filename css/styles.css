@@ -311,10 +311,7 @@ footer .redes-sociales .detalle p{
     line-height: 10px;
 }
 
-footer .redes-sociales h4{
-    text-decoration: underline;
-    margin-bottom: 24px;
-}
+
 
 footer .contacto .formulario .boton:hover, 
 .our .contenedor article .btnReadMore1:hover, 
@@ -327,9 +324,9 @@ footer .contacto .formulario input[type="email"]:focus,
 footer .contacto .formulario textarea:focus{
     border: 2px solid #3895ea;
 }
-footer .redes-sociales{
+/* footer .redes-sociales{
     background: #1e2b38;
-    padding: 40px 0px;
+    padding: 30px 0px;
 }
 
 footer .redes-sociales .redes{
@@ -351,10 +348,77 @@ footer .redes-sociales .redes a{
     margin: 0 20px;
 }
 
-footer .redes-sociales .facebook:hover{background: #3b5998;}
-footer .redes-sociales .instagram:hover{background: #5851db;}
-footer .redes-sociales .youtube:hover{background: #ff0000;}
+footer .redes-sociales .contenedor .twitter:hover {background: #55acee; }
+footer .redes-sociales .contenedor .facebook:hover {background: #3b5998; }
+footer .redes-sociales .contenedor .youtube:hover {background: #cd201f; }
+footer .redes-sociales .contenedor .github:hover {background: #666666; }
+footer .redes-sociales .instagram:hover{background: #5851db;} */
 
+
+/*TODO FOOTER ALTERNATIVO*/
+footer .redes-sociales2{
+    background: #1e2b38;
+    padding: 30px 0px;
+    color: #fff;
+}
+
+footer .redes-sociales2 h4{
+    text-decoration: underline;
+    margin-bottom: 24px;
+}
+
+footer .redes-sociales2 .detalle p{
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 6px;
+}
+
+footer .redes-sociales2 .redes2 a{
+    color: #fff;
+    text-align: center;
+    width: 60px;
+    padding: 4px 0;
+    border-radius: 3px;
+    font-size: 20px;
+    margin: 0 20px;
+}
+footer .redes-sociales2 .contenedor .twitter:hover {background: #55acee; }
+footer .redes-sociales2 .contenedor .facebook:hover {background: #3b5998; }
+footer .redes-sociales2 .contenedor .youtube:hover {background: #cd201f; }
+footer .redes-sociales2 .contenedor .github:hover {background: #666666; }
+footer .redes-sociales2 .instagram:hover{background: #5851db;}
+
+
+/*BOTON FLOTANTE*/
+.btn-flotante {
+	font-size: 16px; /* Cambiar el tamaño de la tipografia */
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 50%; /* Borde del boton */
+	background-color: #55acee; /* Color de fondo */
+	padding: 22px 30px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.btn-flotante:hover {
+	background-color: #5482e7; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+}
 
 /*TODO: ACA VA EL RESPONSIVE DESING*/
 
@@ -391,10 +455,5 @@ footer .redes-sociales .youtube:hover{background: #ff0000;}
     } 
     header .contenedor-texto .texto .profesion{
         font-size: 18px;
-    }
-
-    footer .redes-sociales .contenedor{
-        flex-wrap: wrap;
-        padding: 20px 0;
     }
 }
