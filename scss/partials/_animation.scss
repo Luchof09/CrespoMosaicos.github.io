@@ -1,0 +1,7 @@
+$primary-color: #3895ea;; // Color del botón
+$animation-duration: 0.3s; // Duración de la animación
+
+.btnAnimation:hover {
+    cursor: pointer;
+    border-radius: 40px;
+}

@@ -1,0 +1,16 @@
+@import "partials/variables";
+@import "partials/mixin";
+@import "partials/animation";
+.contenedor{
+    width: 94%;
+    max-width: 1300px;
+    margin: auto;
+    overflow: hidden; /*TODO: con esta propiedad hace que todo el contenido sobrante de la caj donde se encuentra, no se vea ni sobrepase su contenedor.*/
+}
+@import "partials/reset";
+@import "partials/header";
+@import "partials/main";
+@import "partials/footer";
+@import "partials/btnFlotante";
+@import "partials/queries";
+

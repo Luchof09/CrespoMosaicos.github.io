@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px) {
+    .btn-flotante {
+       font-size: 14px;
+       padding: 12px 20px;
+       bottom: 20px;
+       right: 20px;
+   }
+}
+
+@media screen and (max-width: 800px){
+    header .menu{
+        text-align: center;
+    }
+
+    .main .trabajos .contenedor-trabajos .trabajo{
+        width: 46%;
+    }
+    .our .contenedor article p{
+        font-weight: 260;
+        font-size: 12px;
+    } 
+    
+    .our .contenedor article p span{
+        font-weight: 700;
+    } 
+}
+
+@media screen and (max-width: 500px){
+    header .contenedor-texto .texto .nombre{
+        font-size: 35px;
+    }
+
+    .our .contenedor article p{
+        font-weight: 200;
+        font-size: 12px;
+    } 
+    
+    .our .contenedor article p span{
+        font-weight: 600;
+    } 
+    header .contenedor-texto .texto .profesion{
+        font-size: 18px;
+    }
+}

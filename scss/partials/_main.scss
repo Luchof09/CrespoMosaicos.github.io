@@ -1,0 +1,147 @@
+section.slider {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
+    background: $bgColor2;
+    h1{
+        color: #18453b;
+        text-align: center;
+        margin-bottom: 40px;
+        font-weight: $lFontWeigh;
+    }
+    .slide img {
+        width: 100%;
+    }
+}
+
+.articulo{
+    section{
+        margin-bottom: 30px;
+    }
+    h2{
+        margin-bottom: 40px;
+    }
+    .article1{
+        margin-bottom: 20px;
+        font-size: 1em;
+        line-height: 30px;
+        text-align: justify;
+    } 
+}
+
+
+.main .trabajos{
+    background: $bgColor2;
+    padding: 60px 0px;
+    .contenedor{
+        overflow: hidden;
+    }
+    .titulo{
+        @include hStyle(20px 0 40px 0);
+    }
+    .contenedor-trabajos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .contenedor-trabajos .trabajo{
+        width: 23%;
+        .thumb{
+            width: 100%;
+            margin-bottom: 10px;
+            img{
+                width: 100%;
+                vertical-align: top;
+                border-radius: 4px;
+                border: 2px solid transparent;
+            }
+            img:hover{
+                border: 2px solid grey;
+                opacity: .9;
+            }
+        }
+        .descripcion{
+            text-align: center;
+        }
+        .nombre{
+            font-weight: $lFontWeigh;
+            color: #3895ea;
+            margin-bottom: 10px;
+        }
+        .categoria{
+            font-size: 14px;
+            color: #636363;
+        }
+    }
+}
+
+/* TODO: NUESTROS CLIENTES */
+
+.mainClient{
+    background-color: $bgColor1;
+    margin-bottom: 30px;
+    .titulo{
+        @include hStyle(20px 0 40px 0);
+    }
+    .articleClient{
+        margin-bottom: 20px;
+        font-size: 1.2em;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .clientDescript{
+        font-size: .9em;
+        padding: 10px 6px;
+        text-align: justify;
+    }
+    .btnWork .botonClient{
+        display: flex;
+        margin: auto;
+        background: #3895ea;
+        color: #fff;
+        border: none;
+        // border-radius: 40px;
+        padding: 10px 40px;
+        width: 300px;
+        cursor: pointer;
+    }
+}
+
+/* <!-- TODO: NOSOTROS--> */
+.our{
+    background: $bgColor2;
+    width: 100%;
+    .titulo{
+        @include hStyle(20px 0 40px 0);
+    }
+    .slide img{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .contenedor article{
+        margin:0 10px 40px 10px;
+        height: auto;
+        overflow: hidden;
+        h3{
+            text-decoration: underline;
+            margin-bottom: 20px;
+        } 
+        p{
+            font-weight: $sFontWeigh;
+            text-align: justify;
+            span{
+                font-weight: $lFontWeigh;
+            } 
+        }
+        .btnReadMore1{
+            background: #3895ea;
+            color: #fff;
+            border: none;
+            border-radius: 40px;
+            padding: 2px;
+            width: 120px;
+            cursor: pointer;
+        } 
+    }
+}

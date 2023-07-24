@@ -1,0 +1,78 @@
+footer .contacto{
+    background: $bgColor1;
+    margin-top: 20px;
+    p{
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .formulario{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        input[type="text"],
+        input[type="email"],
+        textarea{
+        border: 2px solid #cecece;
+        border-radius: 5px;
+        padding: 15px 20px;
+        font-size: 20px;
+        color: #a4a4a4;
+        }
+        input[type="text"],
+        input[type="email"]{
+        width: 49%;
+        margin-bottom: 15px;
+        }
+        textarea{
+            height: 100px;
+            max-width: 100%;
+            min-width: 100%;
+            min-height: 100px;
+            max-height: 200px;
+            margin-bottom: 15px;
+        }
+        .boton {
+            margin: auto;
+            background: #3895ea;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 15px 40px;
+            cursor: pointer;
+        }
+    }
+}
+
+footer .row .titulo{
+    @include hStyle(20px 0 40px 0);
+}
+
+/*TODO FOOTER ALTERNATIVO*/
+footer .redes-sociales2{
+    background: #1e2b38;
+    padding: 30px 0px;
+    color: #fff;
+    h4{
+        text-decoration: underline;
+        margin-bottom: 24px;
+    }
+    .detalle p{
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 6px;
+    }
+    .redes2 a{
+        color: #fff;
+        text-align: center;
+        width: 60px;
+        padding: 4px 0;
+        border-radius: 3px;
+        font-size: 20px;
+        margin: 0 20px;
+    }
+    .contenedor .twitter:hover {background: #55acee; }
+    .contenedor .facebook:hover {background: #3b5998; }
+    .contenedor .youtube:hover {background: #cd201f; }
+    .contenedor .github:hover {background: #666666; }
+    .instagram:hover{background: #5851db;}
+}
